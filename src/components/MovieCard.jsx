@@ -21,7 +21,7 @@ const MovieCard = ({ movie }) => {
           <span className="font-medium">Director:</span> {movie.director}
         </p>
         <div className="flex justify-between items-center">
-          <span className="bg-primary-100 text-primary-700 px-2 py-1 rounded-full text-sm font-medium">
+          <span className="bg-primary-100 text-primary-700 px-2 py-1 rounded-full bg-blue-300 text-sm font-medium">
             {movie.genre}
           </span>
           <span className="text-gray-500 text-sm">{movie.year}</span>
